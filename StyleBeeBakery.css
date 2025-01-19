@@ -1,0 +1,207 @@
+ * {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Playfair Display", sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    height: 250px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+
+.logo>a>img {
+    width: 400px;
+    height: auto;
+    float: left;
+    margin-left: auto;
+}
+
+.menu>a {
+    color: black;
+    padding-top: 50px;
+    padding-right: 60px;
+    line-height: 250px;
+}
+
+.icon>a>img {
+    width: 20px;
+    height: 20px;
+}
+
+.icon>a {
+    float: right;
+    line-height: 260px;
+    padding: 0 50px;
+}
+
+.slide>img {
+    width: 100%;
+    max-height: 500px;
+    margin: -10px auto;
+}
+
+article>h2 {
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Playfair Display", sans-serif;
+}
+
+article .new_list .new_pro {
+    width: 30%;
+    border: 1px solid white;
+    float: right;
+    margin-left: auto;
+    padding-bottom: 10px;
+}
+
+.new_pro>a>img {
+    width: 70%;
+    height: auto;
+} 
+
+.new_pro .Ten_pro {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 20px;
+}
+
+.new_pro .Gia_pro {
+    font-family: "Playfair Display", sans-serif;
+    color: burlywood;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.Like {
+    clear: both;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.List_like {
+    width: 30%;
+    border: 1px solid white;
+    float: right;
+    margin-left: auto;
+    padding-bottom: 10px;
+    background-color: whitesmoke;
+}
+
+.List_like>a>img {
+    width: 70%;
+    height: auto;
+}
+
+.TenSP {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 20px;
+}
+
+.GiaSP {
+    font-family: "Playfair Display", sans-serif;
+    color: burlywood;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.footer .Contact {
+    clear: both;
+    background-color: darkslategray;
+    height: 300px;
+}
+
+.Contact .Infor {
+    font-size: 15px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-family: "Playfair Display", sans-serif;
+    color: white;
+    line-height: 25px;
+}
+
+.LogoBCT>img {
+    width: 200px;
+    height: 100px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.Since {
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 20px;
+    background-color: darkslategray;
+    margin-top: -1px;
+    color: white;
+    padding-top: 1%;
+}
+
+.Methor {
+    text-align: center;
+    background-color: darkslategray;
+    height: 50px;
+    padding-top: 15px;
+    font-family: "Playfair Display", sans-serif;;
+}
+
+.Methor>a {
+    color: white;
+    font-size: 17px;
+}
+
+.Methor>a:hover {
+    color: grey;
+}
+
+.menu ul .inf {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 1px gray;
+}
+
+.menu ul ul a {
+    display: block;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    padding: 0 10px;
+}
+
+.menu>ul>li:hover>ul {
+    display: block;
+}
+
+.menu ul ul a:hover {
+    background-color: antiquewhite;
+    color: brown;
+    border: 2px solid black;
+    font-weight: bolder;
+}

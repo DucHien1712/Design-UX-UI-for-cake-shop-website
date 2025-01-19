@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí</title>
+    <style>
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: "Playfair Display", sans-serif;
+        text-decoration: none;
+    }
+
+    .Container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav {
+        height: 250px;
+        background-color: antiquewhite;
+        margin: 0 auto;
+    }
+
+    .logo>a>img {
+        width: 400px;
+        height: auto;
+        float: left;
+        margin-left: auto;
+    }
+
+    .menu>a {
+        color: black;
+        padding-top: 50px;
+        padding-right: 60px;
+        line-height: 250px;
+    }
+
+    .icon>a>img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon>a {
+        float: right;
+        line-height: 260px;
+        padding: 0 50px;
+    }
+
+    .footer .Contact {
+        clear: both;
+        background-color: darkslategray;
+        height: 300px;
+    }
+
+    .Contact .Infor {
+        font-size: 15px;
+        float: left;
+        padding-left: 5%;
+        padding-top: 5%;
+        font-family: "Playfair Display", sans-serif;
+        color: white;
+        line-height: 25px;
+    }
+
+    .LogoBCT>img {
+        width: 200px;
+        height: 100px;
+        float: left;
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+
+    .Since {
+        text-align: center;
+        font-family: "Playfair Display", sans-serif;
+        font-size: 20px;
+        background-color: darkslategray;
+        margin-top: -1px;
+        color: white;
+        padding-top: 1%;
+    }
+
+    .Methor {
+        text-align: center;
+        background-color: darkslategray;
+        height: 50px;
+        padding-top: 15px;
+        font-family: "Playfair Display", sans-serif;
+    }
+
+    .Methor>a {
+        color: white;
+        font-size: 17px;
+    }
+
+    .Methor>a:hover {
+        color: grey;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .Dangki {
+        border: 2px solid black;
+        width: 50%;
+        margin: 20px auto;
+        height: 700px;
+        padding-left: 50px;
+        background-color: tan;
+        font-family: "Playfair Display", sans-serif ;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+
+    .Thongtin input {
+        width: 650px;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .Dangki fieldset {
+        width: 650px;
+        background-color: white;
+    }
+
+    .Dangki fieldset input {
+        margin-left: 20px;
+    }
+
+    .Dangki select {
+        width: 650px;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .Dangki select option {
+        font-weight: bold;
+    }
+
+    .Dangki textarea {
+        width: 650px;
+    }
+
+    .Dangki h2 {
+        font-family: "Playfair Display", sans-serif;
+        text-align: center;
+        padding-top: 10px;
+        color: rgba(16, 15, 13, 0.822);
+    }
+
+    button {
+        width: 220px;
+        height: 50px;
+        border-radius: 5px;
+        border: 3px solid grey;
+        background-color: antiquewhite;
+        color: rgba(16, 15, 13, 0.822);
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    button:hover {
+        font-size: 15px;
+        color: red;
+        background-color: antiquewhite ;
+        border: 3px solid black;
+    }
+
+    .menu ul .inf {
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 120px;
+        margin-left: 50px;
+    }
+
+    .menu ul li a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .menu ul ul {
+        position: absolute;
+        display: none;
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 3px;
+        width: 200px;
+        background-color: whitesmoke;
+        box-shadow: 0 0 1px gray;
+    }
+
+    .menu ul ul a {
+        display: block;
+        line-height: 30px;
+        color: black;
+        text-decoration: none;
+        font-size: larger;
+        padding: 0 10px;
+    }
+
+    .menu>ul>li:hover>ul {
+        display: block;
+    }
+
+    .menu ul ul a:hover {
+        background-color: antiquewhite;
+        color: brown;
+        border: 2px solid black;
+        font-weight: bolder;
+    }
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <nav class="menu">
+            <div class="logo">
+                <a href="Index.html"><img src="img/Logo-removebg-preview.png" alt=""></a>
+            </div>
+
+            <div class="icon">
+                <a href="LoginBB.html"><img src="img/Login-removebg-preview.png" alt=""></a>
+                <a href="#"><img src="img/Icon_gio_hang.png" alt=""></a>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li class="inf"><a href="Index.html">TRANG CHỦ</a></li>
+                    <li class="inf">
+                        <a href="#">MENU</a>
+                        <ul class="menu2">
+                            <li><a href="#">Sweet Box</a></li>
+                            <li><a href="#">Bánh Mousse</a></li>
+                            <li><a href="#">Bánh Entremet</a></li>
+                            <li><a href="#">Bánh Kem Bắp</a></li>
+                            <li><a href="#">Bánh Plan Gato</a></li>
+                            <li><a href="#">Bánh Nướng</a></li>
+                        </ul>
+                    </li>
+                    <li class="inf"><a href="#">TIN TỨC & KHUYẾN MÃI</a></li>
+                    <li class="inf"><a href="#">LIÊN HỆ</a></li>
+                    <li class="inf"><a href="#">TUYỂN DỤNG</a></li>
+                </ul>
+            </div>
+        </nav>
+
+       <form>
+            <div class="Dangki">
+                <h2>ĐĂNG KÝ THÀNH VIÊN</h2>
+                <br>
+                <div class="Thongtin">
+                    <label for="">Mã khách hàng</label> 
+                    <br>
+                    <input type="text">
+                    <br>
+                    <label for="">Họ và tên</label> 
+                    <br>
+                    <input type="text">
+                    <br>
+                    <label for="">Email</label>
+                    <br>
+                    <input type="text">
+                </div>
+                <br>
+                <fieldset>
+                    <legend style="padding-left: 10px;">Giới tính</legend> <br>
+                    <input type="radio" name="gioitinh">Nam
+                    <input type="radio" name="gioitinh">Nữ
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend style="padding-left: 10px;">Sở thích</legend> <br>
+                    <input type="checkbox">Bánh Cupcake
+                    <input type="checkbox">Bánh Mousse
+                    <input type="checkbox">Bánh Plan
+                    <input type="checkbox">Bánh Entremet
+                    <input type="checkbox">Khác
+                </fieldset>
+                <br>
+                <label for="">Quốc tịch</label> <br>
+                <select name="" id="">
+                    <option value="">Chọn quốc tịch</option>
+                    <option value="">Vietnamese</option>
+                    <option value="">Korean</option>
+                    <option value="">Japanese</option>
+                    <option value="">Chinese</option>
+                    <option value="">Singaporean</option>
+                    <option value="">Khác</option>
+                </select>
+                <br>
+                <label for="">Ghi chú</label>
+                <br>
+                <textarea  rows="5" cols="30"></textarea>
+                <br>
+                <button>Đăng ký</button>
+            </div>
+       </form>
+
+        <footer>
+            <div class="footer">
+                <div class="Contact">
+                    <div class="Infor">
+                    Công ty TNHH Bee Bakery <br>
+                    1180/9 Quang Trung, Phường 8, Quận Gò Vấp, Thành phố Hồ Chí Minh <br>
+                    Số điện thoại: 0812529589 <br>
+                    Email: contact@BeeBakery.com <br>
+                    Giấy chứng nhận đăng ký kinh doanh: 0315630862 <br>
+                    Mã số doanh nghiệp: 0315630862. Giấy chứng nhận đăng ký doanh nghiệp do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp lần đầu ngày 16/04/2024. <br>
+                    </div>
+                <div class="LogoBCT"><img src="img/LogoBCT.png" alt=""></div>  
+            </div>  
+            <hr>
+            <div class="Since">© 2024 Bee Bakery.</div>
+            <div class="Methor">
+                <a href="">Chính sách giao hàng</a> |
+                <a href="">Chính sách trả hàng - hoàn tiền</a> |
+                <a href="">Phương thức thanh toán</a> |
+                <a href="">Điều khoản & điều kiện thanh toán</a> |
+                <a href="">Bảo vệ thông tin cá nhân người tiêu dùng</a> |
+                <a href="">Thông tin liên hệ</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
